@@ -1,0 +1,149 @@
+<!--Add Expenditure HTML page-->
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Add Expenditure</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/Add Expenditure.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type = "text/javascript" src="js/Add Expenditure.js"></script> 
+	</head>
+	
+	<body id = "body1">
+	<div>
+		<nav>
+			<p id = "navTitle">Select the type of expenditure:</p>
+			<a id = "back"> Back >>></a>
+		</nav>
+		<aside id = "one_expenditure">
+		  <img class = "formPic" src = "pic/stores.jpg" >
+			<form id = "form">
+				<h1 id = "one_expenditureTitle"> Insert new release: <t id="NameOffOneExpenditure"> </t> </h1>
+				<table id = "formTable">
+				<tr class="formTableTR">
+				<td><label for = "Details">Details:</label></td>
+				<td><input id = "Details" type = "text" ></td>
+				</tr>
+				<tr class="formTableTR">
+				<td><label for = "Date">Date:</label></td>
+				<td><input id = "Date" type = "date"/></td>
+				</tr>
+				<tr class="formTableTR">
+				<td><label for = "sum">Amount:</label></td>
+				<td><input id = "sum" type = "text"/></td>
+				</tr>
+				<tr class="formTableTR">
+				<td><label for = "Payment">Methods of Payment:</label></td>
+				<td><select id = "Payment" value = "select" required>
+					<option value="">Select</option>
+					<option >Cash</option>
+					<option >Check</option>
+					<option >Credit</option>
+				</select></td>
+				</tr>
+				</table>
+				</br>
+				<button id = "cmdSubmit">submit</button>
+				<input id = "reset" type="reset" value="Clear" >
+				</tr>
+					<br/><br/>
+				<button id = "allOneKind">See all the exps of this kind</button>
+			</form>
+			
+			<div id = "formCover" > 
+				<div id = "formCoverIn" style = "overflow-y:auto">
+					<table id = "formCoverTable" >
+						<tr id = "listTD">
+							<td>Details</td>
+							<td>Date</td>
+							<td>Sum</td>
+							<td>How</td>
+						</tr>
+					</table>
+				</div>
+				<div id = "oneTotalSum1">Total sum of this expenditure: 
+					<put id = "oneTotalSum2"> 0</put>
+				</div>
+				
+			</div>
+			
+		</aside>
+		
+		<main id = "main1">
+			<table>
+				<tr>
+					<td id = "events" class = "exp">
+						<p ><id = "1">Events</p>
+						<img id= "eventsPic" class = "exp" src = "pic/events.jpg">
+					</td>
+					<td id = "internet" class = "exp">
+						<p id = "2">Internet</p>
+						<img id= "internetPic" class = "exp" src = "pic/enternet.jpg">
+					</td>
+					<td id = "cosmetic" class = "exp">
+						<p id = "3">Cosmetic</p>
+						<img id= "cosmeticPic" class = "exp" src = "pic/cosmetic.jpg">
+					</td>
+					<td id = "Timepass" class = "exp">
+						<p id = "4">Timepass</p>
+						<img id= "TimepassPic" class = "exp" src = "pic/Timepass.jpg">
+					</td>
+					<td id = "super" class = "exp">
+						<p id = "5">SuperMarket</p>
+						<img id= "superPic" class = "exp" src = "pic/super.jpg">
+					</td>			
+				</tr>
+				
+				<tr>
+					<td id = "resterants" class = "exp">
+						<p id = "6">Resterants</p>
+						<img id= "resterantsPic" class = "exp" src = "pic/meal.jpg">
+					</td>
+					<td id = "clothes" class = "exp">
+						<p id = "7">Clothes</p>
+						<img id= "clothesPic" class = "exp" src = "pic/clothes.jpg">
+					</td>
+					<td id = "gift" class = "exp">
+						<p id = "8">Gifts</p>
+						<img id= "giftPic" class = "exp" src = "pic/gift1.jpg">
+					</td>
+					<td id = "furniture" class = "exp">
+						<p id = "9">Furniture</p>
+						<img id= "furniturePic" class = "exp" src = "pic/furniture.jpg">
+					</td>
+					<td id = "selolar" class = "exp">
+						<p id = "10">Selolar</p>
+						<img id= "selolarPic" class = "exp" src = "pic/iphone.jpg">
+					</td>
+				</tr>
+				
+			</table>
+			<br/>
+			<button id = "seeTheList">For a list of expenses ></button>
+		</main>
+		</div>
+		</br>
+			<div id = "container" class = "containerStyle"> 
+				<div id = "containerIn" class = "containerStyle" style="overflow-y:auto">
+					<table id = "containerTable" class = "containerStyle">
+						<tr id = "listTr">
+							<th>Number</th>
+							<th>Type</th>
+							<th>Details</th>
+							<th>Date</th>
+							<th>Sum</th>
+							<th>How</th>
+						</tr>
+					</table>
+				</div>
+				<button id = "resetMemmory"> Clear the list </button>
+				<button id = "hideTheList"> BACK </button> 
+					<summry id = "summry">Your total sum: <summry2 id = "summry2">0</summry2>  </summry>
+			</div>
+		<footer id = "footer">
+			<p id = "footerText">Tali Yazdi & Chani Garber © All Rights Reserved.   &nbsp&nbsp&nbsp    | &nbsp&nbsp&nbsp Email: 369taltal@gmail.com  </p>
+		</footer>
+		
+	
+	</body>
+</html>

@@ -1,0 +1,269 @@
+#body1{
+	background-color:#1a1a1a;
+	width:98%;
+	height:800px;
+}
+
+nav{
+	width: 100%;
+	height:60px;
+	color:white;
+	padding-right:40px;
+}
+#navTitle{
+	font-size:23px;
+	padding:20px;
+	font-family:arial;
+	position:absolute;
+	top: 10px;
+	background-color:#1a1a1a;
+	left:22px;
+	/*font-family:Impact;*/
+}
+#back{
+	cursor:pointer;
+	color:white;
+	position:absolute;
+	right:25px;
+	top:20px;
+	font-size:15px;
+}
+#one_expenditure{
+	border: 2px solid #c7c7c7;
+	width: 27%;
+	height:490px;
+	position: absolute;
+	top: 70px;
+	right:20px;
+	color : white;
+	font-size:18px;
+}
+#one_expenditureTitle{
+	font-size:20px;
+	padding:10px;
+}
+#form{
+	padding:15px;
+	height:460px;
+	position:absolute;
+	/*background-color: #000;	*/	
+}
+#formTable{
+	width: 85%;
+	height:70px;
+	margin:20px;
+	text-align:left;
+	font-size:17px;
+	/*font-family:Lucida Console;*/
+	font-family:arial;
+}
+.formTableTR{
+	height: 40px;
+}
+.formPic{
+	position:absolute;
+	height:489.5px;
+	width: 100%;
+}
+#formCover{
+	position:absolute;
+	height:460px;
+	width: 91.5%;
+	background-color:#333333;
+	color: white;
+	padding: 15px;
+	font-size:15px;
+}
+#formCoverTable{
+	border-collapse: collapse;
+	padding: 10px;
+	border:0.5px solid white;
+}
+#formCoverIn{
+	position:absolute;
+	height:420px;
+	width:89%;
+	top:10px;
+	border: 1px solid gray;
+}
+.list2{
+	border:1px solid white;
+	padding: 15px;
+}
+.list{
+	padding: 8px;
+}
+#allOneKind{
+	cursor: pointer;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding: 5px;
+	position:absolute;
+	bottom: 40px;
+	left: 22%;
+	font-family:Impact;
+	font-size:15px;
+	word-spacing: 3px;
+}
+#oneTotalSum1{
+	position:absolute;
+	bottom: 13px;
+	left: 15%;
+	padding: 10px;
+	/*border: 1px double white;*/
+	background-color:#e0ebeb;
+	color:black;
+}
+#seeTheList{
+	font-size: 20px;
+	font-family:Impact;
+	letter-spacing: 1.5px;
+	word-spacing: 3px;
+	text-align:center;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right:25px;
+	text-shadow: 1px black;
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 0 0 20px black;
+}
+#cmdSubmit, #reset{
+	margin-left:17px;
+	padding-left:9px;
+	padding-right:9px;
+	padding:5px;
+}
+#reset{
+	cursor: pointer;
+}
+input{
+	text-overflow: ellipsis;
+}
+main{
+	border: 2px solid black;
+	width: 70%;
+	height:480px;
+	display:block;
+	color:white;
+	text-align:center;
+	padding:5px;
+}
+
+footer{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height:70px;
+	color: white;
+	text-align: left;
+	background-color:#1f1f1f;
+}
+#footerText{
+	padding-left:20px;
+	padding-top:8px;
+}
+#header_titel{
+	color:white;
+	text-align: right;
+	padding:10px;
+	padding-right:55px;
+}
+#headerTitleLink{
+	text-decoration:none;
+}
+#eventsPic, #internetPic, #cosmeticPic, #TimepassPic, #superPic, #clothesPic, #resterantsPic, #furniturePic, #giftPic, #selolarPic{
+	height:110px;
+	box-shadow: 0px 0px 9px black;	
+}
+#events, #internet, #cosmetic, #Timepass, #super, #clothes, #resterants, #furniture, #gift, #selolar{
+	cursor: pointer;
+	padding-left:7px;
+	padding-right:7px;
+	margin:5px;
+	font-family:/*Letter Gothic*/Tempus Sans ITC ;
+}
+.exp:hover{
+	box-shadow: 0px 0px 5px grey;
+	background-color:#262626;
+}
+table{
+	font-family:Courier;
+	width:100%;
+	padding-top:20px;
+}
+a{
+	text-decoration:none;
+}
+#container{
+	background-color:white;
+	border-radius: 7px;
+	position: absolute;
+	top: 84px;
+	left:310px;
+	height: 480px;
+	width: 55%;
+	box-shadow: 0 0 20px black;
+	
+}
+#containerIn{
+	position: absolute;
+	top: 10px;
+	left:15px;
+	height: 400px;
+	width: 95%;
+}
+
+#containerTable{
+	font-size: 15px;
+	text-align:right;
+	/*border: 1px solid gray;*/
+	border-collapse: collapse;
+	padding:15px;
+	position:absolute;
+	top: 20px;
+	bottom:30px;
+	right:15px;
+	width: 90%;
+	font-family:Tubular ;
+	font-size:20px;
+	text-align:left;
+}
+.rowList:nth-child(even){
+	background-color: #eff5f5;
+}
+
+#listTr{
+	font-size:20px;
+}
+
+#hideTheList{
+	padding-left:15px;
+	padding-right:15px;
+	font-size:15px;
+	position:absolute;
+	bottom: 13px;
+	left: 37%;
+}
+#resetMemmory{
+	padding-left:15px;
+	padding-right:15px;
+	font-size:15px;
+	position:absolute;
+	bottom: 13px;
+	left: 50%;	
+}
+
+#summry{
+	position:absolute;
+	bottom:18px;
+	right:20px;
+	border-radius: 5px;
+	padding:7px;
+	padding-left:8px;
+	background-color: #e0ebeb;
+	border: 0.5px solid black;
+}
+
+#summry2{
+	color:black;
+}
